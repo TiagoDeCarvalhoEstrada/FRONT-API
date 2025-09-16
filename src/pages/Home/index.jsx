@@ -23,7 +23,7 @@ function Home() {
       <input name='nome' type='text'/>
       <input name='idade' type='number'/>
       <input name='email' type='email'/>
-      <button type='button'>Cadastrar</button>
+      <button type='button' onClick={getUsuarios}>Cadastrar</button>
     </form>
 
     {usuarios.map(usuario => (
